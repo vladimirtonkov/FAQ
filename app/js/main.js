@@ -1,9 +1,9 @@
 
-let buttonsArrowDown = document.querySelectorAll('.faq__button')
-let showResponse = document.querySelectorAll('.faq__response')
-let question = document.querySelectorAll('.faq__question')
-let closeButton = document.querySelectorAll('.faq__button-close')
-let arrowDown = document.querySelectorAll('.faq__button-arrowDown')
+const buttonsArrowDown = document.querySelectorAll('.faq__button')
+const showResponse = document.querySelectorAll('.faq__response')
+const question = document.querySelectorAll('.faq__question')
+const closeButton = document.querySelectorAll('.faq__button-close')
+const arrowDown = document.querySelectorAll('.faq__button-arrowDown')
 
 
 let IsDown = true
@@ -36,19 +36,3 @@ buttonsArrowDown.forEach((btn, index, arr) => {
 })
 
 
-
-
-
-
-
-let img = document.querySelector('.images')
-
-img.addEventListener('mousedown', (event) => {
-
-  console.log(event.type)
-  console.log(event)
-
-
-
-
-})
